@@ -1,0 +1,19 @@
+{
+  "name": "jquest",
+  "version": "0.0.0",
+  "description": "Easily get JSON responses via HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "snatch": "0.0.0",
+    "inherits": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2"
+  }
+}
