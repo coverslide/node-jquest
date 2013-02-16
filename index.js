@@ -50,10 +50,11 @@ Jquest.prototype.request = function(options){
         if(err) _this.emit('error', err)
         try{
           var obj = JSON.parse(content)
-          _this.emit('response', null, obj)
         } catch(e){
-          _this.emit('error', e)
+          var err = e
         }
+        if(err) _this.emit('error', e)
+        else _this.emit('response', null, obj)
       })
     } else if(res.statusCode >= 300 && res.statsuCode < 400 && res.headers.location){
       //haven't tested this
