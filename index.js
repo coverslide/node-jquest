@@ -1,13 +1,11 @@
 var http = require('http')
-var EventEmitter = require('events').EventEmitter
 var snatch = require('snatch')
-var inherits = require('inherits')
 var parseUrl = require('url').parse
 var https = false
 
 try{https = require('https')}catch(e){}
 
-inherits(Jquest, EventEmitter)
+require('mcgee')(Jquest)
 
 module.exports = jquest
 
