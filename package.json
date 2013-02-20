@@ -11,7 +11,7 @@
   "license": "BSD",
   "dependencies": {
     "snatch": "0.0.0",
-    "inherits": "~1.0.0"
+    "mcgee": "0.0.0"
   },
   "devDependencies": {
     "tape": "~0.2.2"
