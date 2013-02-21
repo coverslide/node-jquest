@@ -5,7 +5,7 @@ var https = false
 
 try{https = require('https')}catch(e){}
 
-require('mcgee')(Jquest)
+require('mkee')(Jquest)
 
 module.exports = jquest
 
